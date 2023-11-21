@@ -25,7 +25,7 @@ test.describe("Hacker challenge speedrun", () => {
   let challengeNinePage: ChallengeNine;
   let challengeTenPage: ChallengeTen;
   let completePage: CompletePage;
-  let CHALLENGE_TEN_PASSWORD_URL = "http://[::]:8000/challenges/normal/jellyfish-password.json";
+  let CHALLENGE_TEN_PASSWORD_URL = "http://localhost:8000/challenges/normal/jellyfish-password.json";
 
   test("First challenge", async ({ page }) => {
     startPage = new StartPage(page);

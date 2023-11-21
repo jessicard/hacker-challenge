@@ -15,7 +15,7 @@ Forked from Github: https://github.com/jessicard/hacker-challenge
 ## Running hacker-challenge locally
 To run locally use `python -m SimpleHTTPServer` in your terminal and then open `http://localhost:8000` (or similiar, check terminal output) in your browser.
 
-Or use Python 3 `python3 -m http.server` ('Serving HTTP on :: port 8000 (http://[::]:8000/) ...') to run the hacker-challenge.
+Or use Python 3 `python3 -m http.server` to run the hacker-challenge.
 
 
 - NOTE: Playwright test execution includes the local start of the webserver, see playwright.config.ts.

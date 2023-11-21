@@ -2,7 +2,7 @@ import { Page } from "@playwright/test";
 
 export class ChallengeThree {
   readonly heading = this.page.getByRole("heading", { name: "Challenge #3: Find the answer in the code" });
-  readonly url = "http://[::]:8000/challenges/normal/cow.html";
+  readonly url = "http://localhost:8000/challenges/normal/cow.html";
 
   constructor(public readonly page: Page) {}
 

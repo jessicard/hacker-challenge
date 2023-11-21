@@ -2,7 +2,7 @@ import { Page } from "@playwright/test";
 
 export class ChallengeSix {
   readonly heading = this.page.getByRole("heading", { name: "Challenge #6: Find the password in Local Storage" });
-  readonly url = "http://[::]:8000/challenges/normal/fox.html";
+  readonly url = "http://localhost:8000/challenges/normal/fox.html";
   readonly passwordInput = this.page.getByPlaceholder("Enter password");
   readonly submit = this.page.getByRole("button", { name: "Submit" });
 
